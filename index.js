@@ -38,7 +38,7 @@ class SortedList {
 
   sum() {
     if (this.length > 0) {
-      return this.items.reduce((acc, e) => e + acc, 0);
+      return this.items.reduce((acc, value) => value + acc, 0);
     } else {
       return 0;
     }
